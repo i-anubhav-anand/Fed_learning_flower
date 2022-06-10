@@ -6,7 +6,11 @@ How Flower can be used to build federated learning use cases based on existing m
 
 <h2>Project Setup</h2>
 Start by cloning the example project.
-https://github.com/i-anubhav-anand/Fed_learning_flower
+
+```bash
+$ git clone https://github.com/i-anubhav-anand/Fed_learning_flower
+
+```
 
 containing files:
 ```bash
