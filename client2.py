@@ -298,7 +298,7 @@ def main() -> None:
 
     # created an instance of our class Covid_Fed_Client and add one line to actually run this client:
     client = Covid_Fed_Client(model, trainloader, testloader, num_examples)
-    fl.client.start_numpy_client("localhost:8888", client)
+    fl.client.start_numpy_client("localhost:8080", client)
 
 
 if __name__ == "__main__":
