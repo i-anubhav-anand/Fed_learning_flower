@@ -73,14 +73,7 @@ $ venv\Scripts\activate
   
 The models achieved a detection accuracy of COVID-19 around 75% trained on 200 images.
 
- ```bash
-Epoch 1/1
-----------
-train Loss: 0.6281 | train Accuracy: 0.7547
-val Loss: 41.3275 | val Accuracy: 0.5755
-Training complete in 0m 39s
- ```
-  
+ 
 
 https://user-images.githubusercontent.com/76263415/173317577-2839e789-eb46-43ef-9e7d-c1b1156cfa23.mp4
 
