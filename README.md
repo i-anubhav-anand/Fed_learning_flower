@@ -71,7 +71,7 @@ $ venv\Scripts\activate
 ```  
   You are now training a PyTorch-based CNN image classifier on Chest X-ray(Custom Data), federated across two clients.
   
-The models achieved a detection accuracy of COVID-19 around 75% trained on 200 images.
+<b>The models achieved a detection accuracy of COVID-19 around 75% trained on 200 images.</b>
 
  
 
