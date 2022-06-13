@@ -44,22 +44,19 @@ dataset.zip
 $ # Linux/macOS
 $ source venv/bin/activate  
 $ # Windows
-$ venv\Scripts\activate  
+$ venv\Scripts\activate 
  ```
+ Installing all the dependencies
+```bash
+    $ pip install -r requirements.txt.
+```
+  Now that the server is running and waiting for clients, we can start two clients that will participate in the federated learning process.
+  To do so simply open two more   terminal windows and run the following commands.
   
   Start the server in a terminal as follows:
   ```bash
     $ python server.py
 ```
-Installing all the dependencies
-```bash
-    $ pip install -r requirements.txt.
-```
-
-
-
-  Now that the server is running and waiting for clients, we can start two clients that will participate in the federated learning process.
-  To do so simply open two more   terminal windows and run the following commands.
   
   Start client 1 in the first terminal:
 
@@ -73,3 +70,10 @@ Installing all the dependencies
     $ python client2.py
 ```  
   You are now training a PyTorch-based CNN image classifier on Chest X-ray(Custom Data), federated across two clients.
+  
+  
+
+https://user-images.githubusercontent.com/76263415/173317104-031f4b23-f65a-49ee-a2be-dc248408d10f.mp4
+
+
+  
