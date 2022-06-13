@@ -73,7 +73,9 @@ $ venv\Scripts\activate
   
   
 
-https://user-images.githubusercontent.com/76263415/173317104-031f4b23-f65a-49ee-a2be-dc248408d10f.mp4
+https://user-images.githubusercontent.com/76263415/173317577-2839e789-eb46-43ef-9e7d-c1b1156cfa23.mp4
+
+
 
 
   
