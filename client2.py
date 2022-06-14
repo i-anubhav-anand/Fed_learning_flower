@@ -46,7 +46,7 @@ from random import random, randint, sample, choice
 
 
 
-DATA_PATH = 'dataset/dataset'
+DATA_PATH = 'dataset'
 
 
 COVID_PATH = 'dataset/dataset/covid19'
