@@ -12,4 +12,4 @@ if __name__ == "__main__":
         min_available_clients=2
 
 )
-fl.server.start_server("localhost:8080", config={"num_rounds": 3},strategy=strategy)
+fl.server.start_server("0.0.0.0:8080", config={"num_rounds": 3},strategy=strategy)
