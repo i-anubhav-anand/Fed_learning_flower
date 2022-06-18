@@ -120,33 +120,24 @@ Start client 1 in the first terminal:
 ```bash
     $ python client2.py
 ```  
-Training started locally on the system
-
-![image](https://user-images.githubusercontent.com/76263415/174426349-fb910a9c-5a7f-467b-a953-cde375ac095f.png)
-
-
- 
-  
-  
-
-    
 
 
 
-  
 
   
   
   You are now training a PyTorch-based CNN image classifier on Chest X-ray(Custom Data), federated across two clients.
   
-<b>The models achieved a detection accuracy of COVID-19 around 75% trained on 200 images.</b>
 
- 
+
+ <h1>Snapshot</h1>
 
 ![image](https://user-images.githubusercontent.com/76263415/174429467-d8d5c7d1-c6fc-4350-84d5-39e577d559d5.png)
 
+<h1> Working Demo </h1>
 
-https://user-images.githubusercontent.com/76263415/173317577-2839e789-eb46-43ef-9e7d-c1b1156cfa23.mp4
+https://user-images.githubusercontent.com/76263415/174444042-2a4c0aee-0da4-4132-9534-a8705c95785f.mp4
+
 
 
 
