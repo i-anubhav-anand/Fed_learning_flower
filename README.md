@@ -138,7 +138,11 @@ Start client 1 in the first terminal:
 
 <h1> Working Demo </h1>
 
-https://user-images.githubusercontent.com/76263415/174444042-2a4c0aee-0da4-4132-9534-a8705c95785f.mp4
+
+
+
+https://user-images.githubusercontent.com/76263415/174473884-185dc6bd-bfba-46fd-9426-506499fb4a84.mp4
+
 
 
 <h1> Single/Batch Prediction </h1>
@@ -177,7 +181,8 @@ To run single/Batch Prediction make sure you pass the right arguments
 
 <h1>Output</h1>
 
-![image](https://user-images.githubusercontent.com/76263415/174462035-59f503fb-4ae4-42e1-be5c-0014acd5dbeb.png)
+![image](https://user-images.githubusercontent.com/76263415/174474864-06278c2f-8606-4d2a-bbc0-b1ba0fb1da84.png)
+
 
 
 <h1>Working Demo of Predicition</h1>
@@ -187,7 +192,25 @@ https://user-images.githubusercontent.com/76263415/174473475-6dd3e59b-6e49-450f-
 
 
 
+<h1>Dataset description : </h1/
 
++--------------+-------+
+
+| Train Images | 5232  |
+
++--------------+-------+
+
+| Valid Images | 1046  |
+
++--------------+-------+
+
+| Test Images  | 525   |
+
++--------------+-------+
+
+|   Classes    |    2    |
+
++--------------+-------+
 
 
 
