@@ -1,5 +1,6 @@
 # Federated_learning_flower
 
+This Project is based on the Deep Learning with PyTorch that uses the custom data of Coivd and Normal Patient to predict if the patient is having covid or not.
 
 <h1>Introduction</h1>
 How Flower can be used to build federated learning use cases based on existing machine learning projects.
@@ -66,10 +67,9 @@ $ git clone https://github.com/i-anubhav-anand/Fed_learning_flower
   To do so simply open two more   terminal windows and run the following commands.
 
 
- <h1>From Centralized To Federated </h1>
+
  
-  This Project is based on the Deep Learning with PyTorch that uses the custom data of Coivd and Normal Patient to predict if the patient is having covid or not.
-  
+    
   <h1>Setting up to run client on your local system</h1>
   
   You can simply start the centralized training as described
@@ -153,10 +153,10 @@ To run single/Batch Prediction make sure you pass the right arguments
 
 
 ```bash
-    $ python test.py arg1 arg2 
+    $ python .\covid_prediction.py  {single/batch}  {location}
 ```  
 
-**where arg1 take '1' for Single Image Prediction and '2' for Batch Prediction arg2 which is the location the image/dir respectively**
+**where arg1 take 'single' for Single Image Prediction and 'batch' for Batch Prediction arg2 which is the location the image/dir respectively**
 
 <h3>
    For Example </h3>
