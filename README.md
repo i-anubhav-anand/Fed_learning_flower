@@ -132,7 +132,8 @@ Start client 1 in the first terminal:
 
  <h1>Snapshot</h1>
 
-![image](https://user-images.githubusercontent.com/76263415/174462612-7be7c454-0104-4b8a-a36d-756d7c9f28ce.png)
+![image](https://user-images.githubusercontent.com/76263415/174471453-11b9662c-869a-4223-8cc1-5c489b43f44e.png)
+
 
 
 <h1> Working Demo </h1>
@@ -182,7 +183,10 @@ To run single/Batch Prediction make sure you pass the right arguments
 <h1>Working Demo of Predicition</h1>
 
 
-https://user-images.githubusercontent.com/76263415/174462441-26cf8ea4-ef65-4f6a-b2ec-8a515e195bcb.mp4
+https://user-images.githubusercontent.com/76263415/174473475-6dd3e59b-6e49-450f-8993-e2f093bff014.mp4
+
+
+
 
 
 
