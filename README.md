@@ -17,8 +17,10 @@ dataset.zip
          |__ *.jpg (all image files)
  --client.py
  --client2.py
- -- server.py
- -- README.md
+ --covid.py
+ --covid_prediction.py
+ --server.py
+ --README.md
  --requiremtns.txt
 ```
 
