@@ -132,7 +132,8 @@ Start client 1 in the first terminal:
 
  <h1>Snapshot</h1>
 
-![image](https://user-images.githubusercontent.com/76263415/174429467-d8d5c7d1-c6fc-4350-84d5-39e577d559d5.png)
+![image](https://user-images.githubusercontent.com/76263415/174462612-7be7c454-0104-4b8a-a36d-756d7c9f28ce.png)
+
 
 <h1> Working Demo </h1>
 
@@ -149,19 +150,22 @@ To run single/Batch Prediction make sure you pass the right arguments
 ```bash
     $ python test.py arg1 arg2 
 ```  
-**
-where arg1 take '1' for Single Image Prediction and '2' for Batch Prediction
-along with arg2 which is the location the image/dir respectively
-**
 
-<h3>For Single Image Prediction</h3>
+**where arg1 take '1' for Single Image Prediction and '2' for Batch Prediction arg2 which is the location the image/dir respectively**
+
+<h3>
+   For Example </h3>
+   
+   
+ <h3>  For Single Image Prediction</h3>
 
 ```bash
     $ python .\covid_prediction.py 1 'dataset\dataset\covid19\person3_bacteria_13.jpeg'
 ```  
 <h1>Output</h1>
 
-![image](https://user-images.githubusercontent.com/76263415/174462061-6d58a700-2b3b-4117-b5ba-4b5c2fca95ce.png)
+![image](https://user-images.githubusercontent.com/76263415/174462789-07b0bdfb-ec01-493f-81fc-2d92a8c4f35a.png)
+
 
 
 <h3>For Batch Prediction</h3>
@@ -175,7 +179,10 @@ along with arg2 which is the location the image/dir respectively
 ![image](https://user-images.githubusercontent.com/76263415/174462035-59f503fb-4ae4-42e1-be5c-0014acd5dbeb.png)
 
 
+<h1>Working Demo of Predicition</h1>
 
+
+https://user-images.githubusercontent.com/76263415/174462441-26cf8ea4-ef65-4f6a-b2ec-8a515e195bcb.mp4
 
 
 
