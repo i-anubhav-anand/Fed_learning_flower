@@ -139,6 +139,46 @@ Start client 1 in the first terminal:
 https://user-images.githubusercontent.com/76263415/174444042-2a4c0aee-0da4-4132-9534-a8705c95785f.mp4
 
 
+<h1> Single/Batch Prediction </h1>
+
+Once after you're done with the training the path weights get saved locally 
+
+To run single/Batch Prediction make sure you pass the right arguments
+
+
+```bash
+    $ python test.py arg1 arg2 
+```  
+**
+where arg1 take '1' for Single Image Prediction and '2' for Batch Prediction
+along with arg2 which is the location the image/dir respectively
+**
+
+<h3>For Single Image Prediction</h3>
+
+```bash
+    $ python .\covid_prediction.py 1 'dataset\dataset\covid19\person3_bacteria_13.jpeg'
+```  
+<h1>Output</h1>
+
+![image](https://user-images.githubusercontent.com/76263415/174462061-6d58a700-2b3b-4117-b5ba-4b5c2fca95ce.png)
+
+
+<h3>For Batch Prediction</h3>
+
+```bash
+    $ python .\covid_prediction.py 2 'dataset\dataset'   
+```  
+
+<h1>Output</h1>
+
+![image](https://user-images.githubusercontent.com/76263415/174462035-59f503fb-4ae4-42e1-be5c-0014acd5dbeb.png)
+
+
+
+
+
+
 
 
 
