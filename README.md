@@ -27,38 +27,40 @@ dataset.zip
  
   
   <h1>Hosting server.py on cloud(EC2) and adding port 8080 in security group.</h1>
-  1.Log into the AWS Management Console.
+  1. Log into the AWS Management Console.
   
-  2.Scroll down the left navigation panel and choose "Security Group" under "Network & Security".
+  2. Scroll down the left navigation panel and choose "Security Group" under "Network & Security".
    
    ![image](https://user-images.githubusercontent.com/76263415/174425642-3f7d086a-1786-436b-a992-7ec4f1dbe087.png)
    
-  3.Select the "EC2 Security Group" that needs to be verified.
+  3. Select the "EC2 Security Group" that needs to be verified.
   
   ![image](https://user-images.githubusercontent.com/76263415/174425658-56404bde-a5de-448d-bae1-c8ea8c47f9f2.png)
 
-  4.Scroll down the bottom panel and choose "Inbound". Choose "Custom TCP rule" in the dropdown.Then you will be able to change the port to 8080.
-   ![inbound](https://user-images.githubusercontent.com/76263415/174425457-bbc38b00-4534-47d8-b28d-0daf3e57958d.png)
-  5.Click on the "Save" button to make the necessary changes.
+  4. Scroll down the bottom panel and choose "Inbound". Choose "Custom TCP rule" in the dropdown.Then you will be able to change the port to 8080.
+  
+   ![image](https://user-images.githubusercontent.com/76263415/174548841-8be6bec8-9f51-44aa-9eb0-4bbce584c90a.png)
+
+  5. Click on the "Save" button to make the necessary changes.
   
   ![image](https://user-images.githubusercontent.com/76263415/174425684-675f2fab-6cc8-4049-94ac-61f033038975.png)
   
   
   Now, Connect to your EC2 instance.
   
-  <h1>Clone the contents of the Repo into this directory using SSH.</h1>
+  <h1>Clone the contents of the Repo into this EC2 instance using SSH.</h1>
   (Note: The ‘.’ at the end of the command is to put the contents of the repository into the current directory)
   
 ```bash
 
-$ git clone https://github.com/i-anubhav-anand/Fed_learning_flower
+$ git clone https://github.com/i-anubhav-anand/Fed_learning_flower .
 
 ```
      
    Go to the (Fed_learning_flower) folder and install all the dependencies
 
 ```bash
-    $ pip install -r requirements.txt.
+    $ pip install -r requirements.txt  
 ```
   After installation run 
   
@@ -167,7 +169,7 @@ To run single/Batch Prediction make sure you pass the right arguments
  <h3>  For Single Image Prediction</h3>
 
 ```bash
-    $ python .\covid_prediction.py 1 'dataset\dataset\covid19\person3_bacteria_13.jpeg'
+    $ python .\covid_prediction.py single 'dataset\dataset\covid19\person3_bacteria_13.jpeg'
 ```  
 <h1>Output</h1>
 
@@ -178,7 +180,7 @@ To run single/Batch Prediction make sure you pass the right arguments
 <h3>For Batch Prediction</h3>
 
 ```bash
-    $ python .\covid_prediction.py 2 'dataset\dataset'   
+    $ python .\covid_prediction.py batch 'dataset\dataset'   
 ```  
 
 <h1>Output</h1>
@@ -187,32 +189,26 @@ To run single/Batch Prediction make sure you pass the right arguments
 
 
 
-<h1>Working Demo of Predicition</h1>
+<h1>Working Demo of Single/Batch Predicition</h1>
 
 
 https://user-images.githubusercontent.com/76263415/174473475-6dd3e59b-6e49-450f-8993-e2f093bff014.mp4
 
 
 
-<h1>Dataset description : </h1/
+ <h2>Dataset Description</h2>
 
-+--------------+-------+
+   
+Info| Count
+--- | --- 
+Train Images | 5232
+Test Images | 1046
+Validation Images | 525 
+Classes | 2
 
-| Train Images | 5232  |
-
-+--------------+-------+
-
-| Valid Images | 1046  |
-
-+--------------+-------+
-
-| Test Images  | 525   |
-
-+--------------+-------+
-
-|   Classes    |    2    |
-
-+--------------+-------+
+ 
+    
+   
 
 
 
